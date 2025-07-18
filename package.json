@@ -1,0 +1,17 @@
+{
+  "name": "n8n-render-app",
+  "version": "1.0.0",
+  "description": "n8n workflow automation on Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "n8n start",
+    "build": "echo 'No build required'"
+  },
+  "dependencies": {
+    "n8n": "^1.103.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
